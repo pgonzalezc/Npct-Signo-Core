@@ -70,6 +70,8 @@ SgEntidadesRootView >> irNuevaEntidadView [
 { #category : #rendering }
 SgEntidadesRootView >> renderContentOn: html [ 
 
+	"Página inicial de las consultas de las entidades".
+	
 	html tbsNavbar beDefault with: [ 
 		html tbsContainerFluid: [
 			html tbsNavbarHeader: [  
